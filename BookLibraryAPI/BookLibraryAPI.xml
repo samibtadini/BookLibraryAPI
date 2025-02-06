@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookLibraryAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BookLibraryAPI.Controllers.AuthorsController.GetAuthors(System.Int32)">
+            <summary>
+            get book id
+            </summary>
+             /// <param name="Id">The id of the author to get</param>
+            <response code="200">Returns the requested author</response>
+            <returns>An author with or without points of interest</returns>
+        </member>
+        <member name="T:BookLibraryAPI.Migrations.FirstMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:BookLibraryAPI.Migrations.FirstMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookLibraryAPI.Migrations.FirstMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookLibraryAPI.Migrations.FirstMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:BookLibraryAPI.Models.AuthorDto.Id">
+            <summary>
+            important to have this property to be able to update the author
+            </summary>
+        </member>
+        <member name="P:BookLibraryAPI.Models.AuthorDto.Name">
+            <summary>
+            Name of the author
+            </summary>
+        </member>
+        <member name="P:BookLibraryAPI.Models.AuthorDto.Books">
+            <summary>
+            Book of the author
+            </summary>
+        </member>
+    </members>
+</doc>
