@@ -77,7 +77,7 @@ builder.Services.AddSwaggerGen(setupAction =>
             {
                 Title = "Book Info API",
                 Version = description.ApiVersion.ToString(),
-                Description = "Through this API you can access cities and their points of interest."
+                Description = "Through this API you can access Authors and their Books."
             });
     }
     var xmlCommentsFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
